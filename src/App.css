@@ -31,3 +31,8 @@
     transform: rotate(360deg);
   }
 }
+
+.main {
+  background-color: cornflowerblue;
+  padding: 3em 0;
+}

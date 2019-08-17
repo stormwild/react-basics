@@ -2,6 +2,9 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Hello from './Hello';
+import Button from './Button';
+
 function App() {
   return (
     <div className="App">
@@ -19,6 +22,12 @@ function App() {
           Learn React
         </a>
       </header>
+      <div className="main">
+        <Hello />
+        <div>
+          <Button />
+        </div>
+      </div>
     </div>
   );
 }
