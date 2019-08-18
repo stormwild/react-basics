@@ -1,38 +1,21 @@
-import React, { useState } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-import Button from './Button';
-import Display from './Display';
+import Header from './components/Header';
+import Sidebar from './components/Sidebar';
+import Main from './components/Main';
 
 function App() {
-  const [count, setCount] = useState(0);
-  const increment = (step = 1)=> setCount(count + step);
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <div className="main">
-        <Display message={count} />
-        <div>
-          <Button onClick={increment} increment={1} /> &nbsp;
-          <Button onClick={increment} increment={5}/> &nbsp;
-          <Button onClick={increment} increment={10}/>
+    <>
+    <Header />
+    <div className="container-fluid">
+        <div className="row">
+          <Sidebar/>
+          <Main/>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
