@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import Hello from './Hello';
 import Button from './Button';
+import Display from './Display';
 
 function App() {
+  const [count, setCount] = useState(0);
+  const increment = (step = 1)=> setCount(count + step);
+
   return (
     <div className="App">
       <header className="App-header">
@@ -14,7 +17,6 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
-          className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
@@ -23,9 +25,11 @@ function App() {
         </a>
       </header>
       <div className="main">
-        <Hello />
+        <Display message={count} />
         <div>
-          <Button />
+          <Button onClick={increment} increment={1} /> &nbsp;
+          <Button onClick={increment} increment={5}/> &nbsp;
+          <Button onClick={increment} increment={10}/>
         </div>
       </div>
     </div>
