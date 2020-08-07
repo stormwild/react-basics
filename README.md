@@ -67,6 +67,20 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
+## Bootstrap 
+
+### Dashboard
+
+Building the sample Bootstrap Dashboard
+
+[Dashboard Template · Bootstrap](https://getbootstrap.com/docs/4.5/examples/dashboard/)
+
+Work-in-progress
+
+![](docs/localhost_3000_dashboard_home.png)
+
+
+
 ## Simple Counter Increment Implemented
 
 ![](docs/increment-counter.png)

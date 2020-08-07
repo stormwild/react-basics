@@ -1,21 +1,15 @@
 import React from 'react';
+import { Router } from '@reach/router';
 
-import Header from './components/Header';
-import Sidebar from './components/Sidebar';
-import Main from './components/Main';
+import Home from './pages/Home';
+import Increment from './pages/Increment';
 
 function App() {
-
   return (
-    <>
-    <Header />
-    <div className="container-fluid">
-        <div className="row">
-          <Sidebar/>
-          <Main/>
-        </div>
-      </div>
-    </>
+    <Router>
+      <Home path='/' />
+      <Increment path='increment' />
+    </Router>
   );
 }
 
