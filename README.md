@@ -67,7 +67,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-## Bootstrap 
+## Bootstrap
 
 ### Dashboard
 
@@ -79,8 +79,12 @@ Work-in-progress
 
 ![](docs/localhost_3000_dashboard_home.png)
 
-
-
 ## Simple Counter Increment Implemented
 
+Navigate to `/increment`
+
 ![](docs/increment-counter.png)
+
+## CodeSandbox
+
+[![Edit stupefied-dew-4x13o](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/stupefied-dew-4x13o?fontsize=14&hidenavigation=1&theme=dark)
