@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "feather-icons": "^4.24.0",
-    "jquery": "^3.4.1",
-    "popper.js": "^1.15.0",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "bootstrap": "^4.5.2",
+    "feather-icons": "^4.28.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -33,6 +33,6 @@
     ]
   },
   "devDependencies": {
-    "eslint-utils": "^1.4.2"
+    "eslint-utils": "^2.1.0"
   }
 }
